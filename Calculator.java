@@ -4,6 +4,8 @@ import java.util.ArrayList;
 import java.util.Arrays;
 
 public class Calculator extends Frame implements ActionListener, WindowListener {
+
+	// I changed this file!	
 	TextField tf, tf2;
 	ArrayList<Button> buttons = new ArrayList<Button>(
 				Arrays.asList(
@@ -25,7 +27,7 @@ public class Calculator extends Frame implements ActionListener, WindowListener 
 						new Button("/")
 					)
 			);
-	
+
 	// Label value
 	StringBuilder labelString = new StringBuilder("0");
 	// Stored value
